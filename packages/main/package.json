@@ -1,6 +1,6 @@
 {
   "name": "demo-npm-meta-package",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Demonstration project to release a meta package with Travis",
   "main": "index.js",
   "engines": {
@@ -30,6 +30,6 @@
   },
   "homepage": "https://github.com/Mogztter/demo-npm-meta-package",
   "dependencies": {
-    "demo-npm-meta-package-core": "0.0.1"
+    "demo-npm-meta-package-core": "0.0.2"
   }
 }
