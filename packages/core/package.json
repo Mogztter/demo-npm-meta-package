@@ -1,0 +1,37 @@
+{
+  "name": "demo-npm-meta-package-core",
+  "version": "0.0.1-master",
+  "description": "Demonstration project - core library",
+  "main": "dist/node/core.js",
+  "browser": "dist/browser/core.js",
+  "engines": {
+    "node": ">=8.11",
+    "npm": ">=5.0.0"
+  },
+  "files": [],
+  "scripts": {
+    "dist": "echo 'dist'",
+    "package": "echo 'package'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Mogztter/demo-npm-meta-package.git"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "demo",
+    "npm",
+    "release",
+    "core"
+  ],
+  "authors": [
+    "Guillaume Grossetie (https://github.com/Mogztter)"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Mogztter/demo-npm-meta-package/issues"
+  },
+  "homepage": "https://github.com/Mogztter/demo-npm-meta-package"
+}

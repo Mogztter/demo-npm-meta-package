@@ -1,0 +1,14 @@
+{
+  "private": true,
+  "engines": {
+    "node": ">=8.11",
+    "npm": ">=5.0.0"
+  },
+  "scripts": {
+    "release": "node tasks/release.js"
+  },
+  "devDependencies": {
+    "bestikk-log": "0.1.0",
+    "libnpmpublish": "1.1.1"
+  }
+}

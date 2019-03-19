@@ -1,0 +1,35 @@
+{
+  "name": "demo-npm-meta-package",
+  "version": "0.0.1-master",
+  "description": "Demonstration project to release a meta package with Travis",
+  "main": "index.js",
+  "engines": {
+    "node": ">=8.11",
+    "npm": ">=5.0.0",
+    "yarn": ">=1.1.0"
+  },
+  "files": [],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Mogztter/demo-npm-meta-package.git"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "demo",
+    "npm",
+    "release"
+  ],
+  "authors": [
+    "Guillaume Grossetie (https://github.com/mogztter)"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Mogztter/demo-npm-meta-package/issues"
+  },
+  "homepage": "https://github.com/Mogztter/demo-npm-meta-package",
+  "dependencies": {
+    "demo-npm-meta-package-core": "file:../packages/core"
+  }
+}
