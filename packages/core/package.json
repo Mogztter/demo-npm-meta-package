@@ -1,6 +1,6 @@
 {
   "name": "demo-npm-meta-package-core",
-  "version": "0.0.1-master",
+  "version": "0.0.1",
   "description": "Demonstration project - core library",
   "main": "dist/node/core.js",
   "browser": "dist/browser/core.js",
